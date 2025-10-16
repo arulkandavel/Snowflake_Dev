@@ -1,1 +1,3 @@
-R__PROC_INTO_VARIABLE.SQL
+deployment:
+  - script: R__PROC_INTO_VARIABLE.SQL
+    path: sqlscripts/procedures/
