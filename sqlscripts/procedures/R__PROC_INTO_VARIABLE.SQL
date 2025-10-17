@@ -5,6 +5,7 @@ AS
 DECLARE
   v_dep NUMBER := 0.00;
   v_sal NUMBER := 0.00;
+  v_tax NUMBER := 0.00;
 BEGIN
    SELECT DEPARTMENT_ID,
           SALARY
